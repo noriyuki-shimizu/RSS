@@ -2,6 +2,7 @@ package domain;
 
 import logic.GetRss;
 import product.Product;
+import rssInterface.RssInterface;
 
 /**
  * Productの子クラス.
@@ -16,7 +17,7 @@ public class Rss extends Product {
 	private String owner;
 	
 	/**	Rssクラスのロジッククラス **/
-	private GetRss getRss;
+	private RssInterface getRss;
 
     /**
      * 引数ありのコンストラクタ.
